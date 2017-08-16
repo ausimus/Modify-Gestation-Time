@@ -40,7 +40,7 @@ public class InitSpell {
                         }
                         if (AddToCustom) {
                             /*
-                            Adds to all custom gods with a id > 100 and <= 1024 (a metric FuckTon).
+                            Adds to all custom gods with a id >= 100 and <= 1024 (a metric FuckTon).
                             Requires a server restart after ascension for spell to be visible.
                             */
                             for (int i = 100; i <= 1024; i++) {
