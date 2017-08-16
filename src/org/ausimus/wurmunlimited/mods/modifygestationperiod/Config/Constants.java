@@ -3,7 +3,7 @@ package org.ausimus.wurmunlimited.mods.modifygestationperiod.Config;
 public class Constants {
     public static byte GestationTime;
     public static boolean AddSpell;
-    static boolean CS_all;
+    public static boolean CS_all;
     public static boolean CS_fo;
     public static boolean CS_vyn;
     public static boolean CS_mag;
