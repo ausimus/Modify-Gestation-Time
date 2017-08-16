@@ -8,12 +8,11 @@ public class Constants {
     public static boolean CS_vyn;
     public static boolean CS_mag;
     public static boolean CS_lib;
-    public static boolean CustomGod101;
-    public static boolean CustomGod102;
     public static int aCastingTime;
     public static int aCost;
     public static int aDifficulty;
     public static int aLevel;
     public static long CoolDown;
     public static boolean ActionBreedGestation;
+    public static boolean AddToCustom;
 }

@@ -20,8 +20,7 @@ public class AusProperties {
         CS_mag = Boolean.parseBoolean(properties.getProperty("CS_mag", Boolean.toString(CS_mag)));
         CS_lib = Boolean.parseBoolean(properties.getProperty("CS_lib", Boolean.toString(CS_lib)));
 
-        CustomGod102 = Boolean.parseBoolean(properties.getProperty("CustomGod102", Boolean.toString(CustomGod102)));
-        CustomGod101 = Boolean.parseBoolean(properties.getProperty("CustomGod101", Boolean.toString(CustomGod101)));
+        AddToCustom = Boolean.parseBoolean(properties.getProperty("AddToCustom", Boolean.toString(AddToCustom)));
 
         aCastingTime = Integer.parseInt(properties.getProperty("aCastingTime", Integer.toString(aCastingTime)));
         aCost = Integer.parseInt(properties.getProperty("aCost", Integer.toString(aCost)));

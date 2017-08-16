@@ -36,11 +36,14 @@ public class InitSpell {
                         if (CS_lib) {
                             Deities.getDeity(Deities.DEITY_LIBILA).addSpell(ModifyGestationTime);
                         }
-                        if (CustomGod101) {
-                            Deities.getDeity(101).addSpell(ModifyGestationTime);
-                        }
-                        if (CustomGod102) {
-                            Deities.getDeity(102).addSpell(ModifyGestationTime);
+                        if (AddToCustom) {
+                            /*
+                            Adds to all custom gods with a id > 100 and <= 1024 (a metric fuckton).
+                            Requires a server restart after ascension for spell to be visible.
+                            */
+                            for (int i = 100; i <= 1024; i++) {
+                                Deities.getDeity(i).addSpell(ModifyGestationTime);
+                            }
                         }
                     }
                 }
